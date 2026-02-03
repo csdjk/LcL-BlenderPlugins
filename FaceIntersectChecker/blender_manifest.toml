@@ -1,22 +1,21 @@
 schema_version = "1.0.0"
-id = "intersection_detector"
-version = "1.1.0"
-name = "🔍 相交检测器 (Intersection Detector)"
-tagline = "专业的网格相交检测和可视化工具"
-maintainer = "CodeMaker AI Assistant"
-type = "add-on"
-blender_version_min = "3.0.0"
-license = [ "SPDX:GPL-3.0-or-later",]
-tags = [ "Mesh", "Tool", "Analysis",]
-copyright = [ "2024 CodeMaker AI Assistant",]
 
-[build]
-paths_exclude_pattern = [
-    "*.pyc",
-    "__pycache__/",
-    "*.blend1",
-    "*.blend2",
-    ".git/",
-    "*.log",
-    "*.tmp",
+# LcL Tools - Mesh Intersection Detection Extension
+id = "lcl_tools"
+version = "1.0.0"
+name = "LcL Tools"
+tagline = "LcL Tools (模型穿插检测)"
+maintainer = "LcL"
+type = "add-on"
+
+blender_version_min = "4.2.0"
+
+license = [
+  "SPDX:GPL-3.0-or-later",
 ]
+
+copyright = [
+  "2026 LcL",
+]
+
+tags = ["Mesh"]
